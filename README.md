@@ -21,7 +21,7 @@ The hackathon has four objectives:
 
 # Format
 
-Prior to the start of the hackathon, participants will have formed teams of 2-5 people, and will have been provided with a list of example projects which they may choose from if they wish.
+Prior to the start of the hackathon, participants will have formed teams of 2-4 people, and will have been provided with a list of example projects which they may choose from if they wish.
 
 The hackathon will begin with a presentation introducing the event, and setting rules and expectations. At 10am on Monday, July 25th the teams will begin working on their code and be free to do so until 10am on Wednesday, July 27th. At this time we will implement a code freeze, meaning that teams will need to upload their code to a repository under MIT License, and we will not accept projects after the deadline.
 
