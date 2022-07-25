@@ -65,3 +65,20 @@ Partner choices - $2000 each
 
 # Challenges
 The following problems were provided by our technical partners. Teams can choose to work on one of the problems or an appropriate generalization thereof.
+
+## IBM Q’s Challenge:
+
+Take a quantum algorithm and implement it on IBM quantum hardware to address a business problem. Extra credit if you leverage QISKIT runtime and/or implement an application to a business problem in finance.
+
+See slack for office hour and hardware access details.
+
+## Xanadu’s Challenge:
+
+Choose a paper, result or algorithm, and implement a version of it on a simulator using PennyLane. This doesn't have to be the whole paper; prototypes or smaller versions of the main results are encouraged. 
+
+Submissions will be judged based on:
+- The scientific and/or technical ability demonstrated
+- The quality of the presentation, including code and documentation
+- Depth of use of quantum software stack
+- Extra credit for using a recent result published in the last 12 months
+- Extra extra credit for also implementing it on quantum hardware
