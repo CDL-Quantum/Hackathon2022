@@ -1,4 +1,4 @@
-![CDL Quantum Hackathon 2021](CDL_logo.jpg)
+![CDL Quantum Hackathon 2021](CDL_logo_1.jpg)
 # CDL Quantum Hackathon 2022
 
 # Description
