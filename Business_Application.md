@@ -14,7 +14,6 @@ They can be applied to various real-world problems such as cryptography, optimis
 Grover's algorithm (1996) is known for its ability to address unstructured search problems, which are basic problems in computer science.
 Here, we implement and analysis the risk modeling and its representation on quantum circuits using this algorithm. 
 The fact that quantum algorithms are faster than a classical ones can be tested by the code execution runtime, measured by the number of elementary operations used by an algorithm, and can be done using the quantum circuit model. 
-
 The quantum program employed here is fast (as compared to classical ones), requires low number of qubits (~200), and has an interesting nested structure: Grover's algorithm\QAE\Quantum risk model.
 
 $H = - \sum_{\langle i,j \rangle, \sigma} t_{xy}^{ij}(\hat{c]_{i \sigma}^{\dagger} \hat{c}_{j \sigma} + h.c.) +...$
