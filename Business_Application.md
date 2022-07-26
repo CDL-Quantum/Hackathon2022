@@ -22,7 +22,7 @@ A risk model estimates the overall likelihood of impacts that would threaten the
 Thus we are dealing with a probablity problem.
 To define the problem, a threshold $A$ for a financial impact is defined.
 The probability $P(A)$ shows probability that the financial impact bigger than $A$, and $P_{max}$ is the maximal acceptable value of $P(A)$.
-In the business risk model, to avoide loss, an action needs to taken when $P(A)$ reaches it maximum value $P_max$.
+In the business risk model, to avoide loss, an action needs to taken when $P(A)$ reaches it maximum value $P_{max}$.
 
 In this work (to-be rephrased):
 we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
