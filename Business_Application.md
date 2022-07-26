@@ -19,6 +19,9 @@ The implementation of the quantum program and simulations are done using Qiskit.
 
 The impact of external adverse developments on future revenues in any business can be addressed within a risk model.
 A risk model estimates the overall likelihood of impacts that would threaten the business.
+Thus we are dealing with a probablity problem.
+To define the problem, a threshold $A$ for the financial impact is defined.
+The probability $P(A)$ that this threshold is breached. 
 
 In this work (to-be rephrased):
 we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
