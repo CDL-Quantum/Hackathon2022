@@ -4,7 +4,7 @@
 # Quantum algorithm
 
 - Problem definition: 
-Quantum algorithms are known for super-polynomial speedup over known classical ones.
+Quantum algorithms are known for super-polynomial speedup over their classical counterparts.
 They can be applied to various real-world problems such as cryptography, optimisation, and simulations. 
 
 - Compilation (Processor design / gate implementation)
@@ -32,9 +32,6 @@ Potential customers for the Sensitivity Analysis of Business Risks includes bank
 and any company dealing with portfolio..
 
 Such analyses can be found in a wide range of applications such as ..
-
-
-# Video for customer value proposition
 
 
 # References
