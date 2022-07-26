@@ -39,7 +39,7 @@ Such analyses can be found in a wide range of applications such as ..
 
 [1] M.C. Braun et al., A Quantum Algorithm for the Sensitivity Analysis of Business Risks (2021), https://arxiv.org/abs/2103.05475
 
-[2]
+[2] A. Montanaro, Quantum algorithms: an overview, npj Quantum Information (2016) 2, 15023.
 
 [3]
 
