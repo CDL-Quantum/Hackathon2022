@@ -16,16 +16,12 @@ Here, we implement and analysis the risk modeling and its representation on quan
 The fact that quantum algorithms are faster than a classical ones can be tested by the code execution runtime, measured by the number of elementary operations used by an algorithm, and can be done using the quantum circuit model. 
 The quantum program employed here is fast (as compared to classical ones, e.g. quasi-Monte Carlo methods), requires low number of qubits (~200), and has an interesting nested structure: Grover's algorithm\QAE\Quantum risk model.
 
-$H = - \sum_{\langle i,j \rangle, \sigma} t_{xy}^{ij}(\hat{c]_{i \sigma}^{\dagger} \hat{c}_{j \sigma} + h.c.) +...$
+The implementation of the quantum program and simulations are done using Qiskit.
 
-i and j denote the sites which are adjacent to each other.
-
-total density operator $\hat{n}_i = ...$
 
 In this work (to-be rephrased):
 we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
 we achieve a success probability of at least 81% (rather than nearly 100% in conventional Grover), which is inherited from the QAE. 
-The number of optimal search steps
 
 
 # Potential customers
