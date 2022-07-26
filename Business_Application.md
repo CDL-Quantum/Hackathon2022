@@ -21,7 +21,8 @@ The impact of external adverse developments on future revenues in any business c
 A risk model estimates the overall likelihood of impacts that would threaten the business.
 Thus we are dealing with a probablity problem.
 To define the problem, a threshold $A$ for a financial impact is defined.
-The probability $P(A)$ shows probability that the financial impact bigger than $A$.
+The probability $P(A)$ shows probability that the financial impact bigger than $A$, and $P_{max}$ is the maximal acceptable value of $P(A)$.
+
 
 In this work (to-be rephrased):
 we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
