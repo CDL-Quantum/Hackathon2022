@@ -5,7 +5,7 @@
 
 - Problem definition: 
 Quantum algorithms are known for super-polynomial speedup over known classical ones.
-They can be applied to various real-world problems such as cryptography, search and optimisation, simulations and solving large systems of linear equations. 
+They can be applied to various real-world problems such as cryptography, optimisation, and simulations. 
 
 - Compilation (Processor design / gate implementation)
 
