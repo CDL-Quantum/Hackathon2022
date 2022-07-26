@@ -8,7 +8,7 @@
 - Compilation (Processor design / gate implementation)
 
 - Performance analysis: 
-- Following the methology by Deutsche Borse Group we present a quantum algorithm (namely Grover's algorithm) to address the sensitivity analysis for a risk model..., which found to be computationally too expensive to perform by classical algorithms.
+ Following the methology by Deutsche Borse Group we present a quantum algorithm (namely Grover's algorithm) to address the sensitivity analysis for a risk model..., which found to be computationally too expensive to perform by classical algorithms.
 
 $H = - \sum_{\langle i,j \rangle, \sigma} t_{xy}^{ij}(\hat{c]_{i \sigma}^{\dagger} \hat{c}_{j \sigma} + h.c.) +...$
 
