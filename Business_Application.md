@@ -46,7 +46,7 @@ Solid material structures such as graphene, ferromagnetic lattices, Silicium squ
 
 # References
 
-[1]
+[1] M.C. Braun et al., A Quantum Algorithm for the Sensitivity Analysis of Business Risks (2021), https://arxiv.org/abs/2103.05475
 
 [2]
 
