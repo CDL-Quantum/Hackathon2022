@@ -5,13 +5,10 @@
 
 - Problem definition
 
-- Quantum algorithm
-
 - Compilation (Processor design / gate implementation)
 
 - Performance analysis
 
-- Hubbard model:
 
 $H = - \sum_{\langle i,j \rangle, \sigma} t_{xy}^{ij}(\hat{c]_{i \sigma}^{\dagger} \hat{c}_{j \sigma} + h.c.) +...$
 
@@ -25,7 +22,6 @@ Tight binding model
 # Real-world problems
 
 - Correlation clustering problem (undirected graph): Multiple-person pose estimation [Pishchulin et al., 2016]
-
 
 
 Solid material structures such as graphene, ferromagnetic lattices, Silicium square and cubic lattices.
