@@ -15,7 +15,7 @@ The fact that quantum algorithms are faster than a classical ones can be tested 
 The quantum program employed here is fast (as compared to classical ones, e.g. quasi-Monte Carlo methods), requires low number of qubits (~200), and has an interesting nested structure: Grover's algorithm\QAE\Quantum risk model.
 
 
-# The risk model: 
+# The Business risk model and analysis: 
 The impact of external adverse developments on future revenues in any business can be addressed within a risk model.
 A risk model estimates the overall likelihood of impacts that would threaten the business.
 Thus we are dealing with a probablity problem.
