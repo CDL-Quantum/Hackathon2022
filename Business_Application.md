@@ -1,11 +1,7 @@
 # Business Application of Quantum Algorithm for the Sensitivity Analysis of Business Risks
 
 
-# Technical problem
-
-- Graphs
-
-Full stack approach:
+# Quantum algorithm
 
 - Problem definition
 
@@ -36,9 +32,10 @@ Solid material structures such as graphene, ferromagnetic lattices, Silicium squ
 
 # Potential customers
 
-Potential customers of a simulation tool to predict the band structures of solid materials are photovoltaics companies..
+Potential customers for the Sensitivity Analysis of Business Risks includes banks, and any financial institute dealing with risk analysis
+and any company dealing with portfolio..
 
-Solid material structures such as graphene, ferromagnetic lattices, Silicium square and cubic lattices can also be simulated with the Hubbard model. Such materials can be found in a wide range of applications such as aviation composites, semi-conductors and specialized coatings.
+Such analyses can be found in a wide range of applications such as ..
 
 
 # Video for customer value proposition
