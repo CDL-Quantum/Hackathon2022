@@ -22,13 +22,6 @@ i and j denote the sites which are adjacent to each other.
 total density operator $\hat{n}_i = ...$
 
 
-# Real-world problems
-
-- Correlation clustering problem (undirected graph): Multiple-person pose estimation [Pishchulin et al., 2016]
-
-
-Solid material structures such as graphene, ferromagnetic lattices, Silicium square and cubic lattices.
-
 # Potential customers
 
 Potential customers for the Sensitivity Analysis of Business Risks includes banks, and any financial institute dealing with risk analysis
