@@ -18,7 +18,7 @@ The quantum program employed here is fast (as compared to classical ones, e.g. q
 The implementation of the quantum program and simulations are done using Qiskit.
 
 The impact of external adverse developments on future revenues in any business can be addressed within a risk model.
-
+A risk model estimates the overall likelihood of impacts that would threaten the business.
 
 In this work (to-be rephrased):
 we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
