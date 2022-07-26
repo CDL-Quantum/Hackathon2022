@@ -24,6 +24,10 @@ To define the problem, a threshold $A$ for a financial impact is defined.
 The probability $P(A)$ shows probability that the financial impact bigger than $A$, and $P_{max}$ is the maximal acceptable value of $P(A)$.
 In the business risk model, to avoide loss, an action needs to taken when $P(A)$ reaches it maximum value $P_{max}$.
 
+The estimated $P(A)$ is based on some estimated parameters (inputs) and we are interested in finding the parameter(s) that when changed
+slightly, influence the output of the model such that $P(A)>P_{max}$.
+
+
 In this work (to-be rephrased):
 we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
 we achieve a success probability of at least 81% (rather than nearly 100% in conventional Grover), which is inherited from the QAE. 
