@@ -16,8 +16,6 @@ i and j denote the sites which are adjacent to each other.
 
 total density operator $\hat{n}_i = ...$
 
-Tight binding model
-
 
 # Real-world problems
 
