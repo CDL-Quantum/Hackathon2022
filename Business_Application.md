@@ -22,6 +22,11 @@ i and j denote the sites which are adjacent to each other.
 
 total density operator $\hat{n}_i = ...$
 
+In this work (to-be rephrased):
+we show that the oracles we consider lower the success probability by a constant factor compared to standard oracles. 
+we achieve a success probability of at least 81% (rather than nearly 100% in conventional Grover), which is inherited from the QAE. 
+The number of optimal search steps
+
 
 # Potential customers
 
