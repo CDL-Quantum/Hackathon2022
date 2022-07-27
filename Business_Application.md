@@ -1,4 +1,4 @@
-# Business Application of Quantum Algorithm for the Sensitivity Analysis of Business Risks
+# Quantum Algorithms for the Sensitivity Analysis of Business Risks
 
 
 # Quantum algorithms
