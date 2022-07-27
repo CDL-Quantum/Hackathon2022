@@ -1,4 +1,4 @@
-#Hackathon 2022: QML4FRAUD
+# Hackathon 2022: QML4FRAUD
 
 This project is QML4FRAUD's submission for CDL Quantum Bootcamp Hackathon 2022, and will guide you through our implementation of using LDA to improve the encoding process of Variation Quantum Circuits in Quantum Machine Learning.
 
@@ -27,7 +27,7 @@ For the purposes of our experiments and proof-of-concepts (as well as time const
 - 4000 records
 - 97 features and a binary target variable.
 
-Note: To see how we perform the LDA and PCA, please look at [Solution via architecture.ipynb](./Solution via architecture.ipynb).
+Note: To see how we perform the LDA and PCA, please look at [Solution via architecture.ipynb](./Solution%20via%20architecture.ipynb).
 
 ### Performing the LDA
 
@@ -73,7 +73,7 @@ And we basically hope to experiment with every single part more.
 
 ## What is in this repository?
 
-- [Solution via architecture.ipynb](./Solution via architecture.ipynb): This notebook contains the proof-of-concept and experiment for the LDA vs PCA, and basically runs through how we run the code.
+- [Solution via architecture.ipynb](./Solution%20via%20architecture.ipynb): This notebook contains the proof-of-concept and experiment for the LDA vs PCA, and basically runs through how we run the code.
 
 - [Factory](./Factory): This folder contains two files: data.py and model.py. These two files are the basis for the unified architecture to prepare the data and run the VQC model for both LDA and PCA.
 - [data.py](Factory/data.py): This file contains the class for preparing the data for both LDA and PCA within the same class PrepareData.
