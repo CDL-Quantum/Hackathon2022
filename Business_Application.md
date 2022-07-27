@@ -49,7 +49,7 @@ The sensitivity analysis of the risk model is considered as a quantum program th
 For the first step, the structure of the model is translated into a quantum circuit.
 In the quantum formalism the risk items are represented by qubits.
 A risk item can be put into a superposition of being triggered with probability $P$ and not being triggered with probability $1-P$
-by appying a rotation operator ($U3(\thea,\phi,\lambda)$) on a qubit.
+by appying a rotation operator ($$U3(\theta,\phi,\lambda)$$) on a qubit.
 
 # Potential customers
 
