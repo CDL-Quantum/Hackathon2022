@@ -25,11 +25,15 @@ NASA and the Canadian Space Agency first noticed the damage on Canadarm2 on May 
 ### Space Debris Removal Optimization
 In space debris removal optimization, the goal is to create an optimal path for satellite vessels to collect as much debris as possible in one pass, while saving fuel. As a result, space debris collection will take fewer days overall.
 
-A space debris removal optimization could also be described as combinatorial optimization, which is searching for maxima (or minima) of an objective function F whose domain is a discrete but large configuration space (in contrast to an N-dimensional continuous space).
+A space debris removal optimization could also be described as combinatorial optimization problem, which is searching for maxima (or minima) of an objective function F whose domain is a discrete but large configuration space (in contrast to an N-dimensional continuous space).
 
 ![Space Debris](./images/knapsack.png)
 
-This can be also considered as a Knapsack problem where the goal is to determine the number of items each with a weight and value to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. According to its name, it refers to the problem of filling a fixed-size knapsack with valuable items when constrained by a fixed size. A similar problem occurs when decision-makers have to select from a set of non-divisible projects or tasks within a fixed budget or timeframe.
+This can be also considered as a Knapsack problem where the goal is to determine the number of items each with a weight and value to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. According to its name, it refers to the problem of filling a fixed-size knapsack with valuable items when constrained by a fixed size. A similar problem occurs when decision-makers have to select from a set of non-divisible projects or tasks within a fixed budget or timeframe. 
+
+To optimize the path and take into account the resources required to travel, we add complexity to the problem. The new term is related to the Traveling Salesman Problem (TSP) whose goal is to optimize a path on a graph, such that all nodes are visited and each road is taken only once. In our case, we want to maximize the amount of nodes visited, representing the debris that are collected, while minimizing the length of the path, indicated by weights on the edges of the graph.
+
+The two problems that represent the situation of debris collection are known to be computationally hard to solve on classical computers: for large amounts of debris, it may take more that the age of the universe to solve.
 
 ### Potential Customers
 * Space agencies, like NASA, ESA, etc, are potential customers because space debris can hinder their missions.
@@ -39,9 +43,9 @@ This can be also considered as a Knapsack problem where the goal is to determine
 
 ### Architecture
 
-We gather open source space debris data and encode it for quantum computers. Our model is platform agnostic and can be run either on IBM hardware or Xanadu hardware. In the near future, it will be also possible to run our model on quantum annealers such as D-Wave hardware.
+We gather open source space debris data and encode it for quantum computers. Our first model leverages gate-based quantum computing using the QAOA algorithm. It is platform agnostic and can be run either on IBM hardware or Xanadu hardware. In the near future, it will be also possible to run our model on quantum annealers such as D-Wave hardware.
 
-As a pre-processing step, we also use AI to clean and rank debris according to size, collection cost, etc. 
+As a pre-processing step, we also use AI to clean and rank debris according to size, collection cost, etc. This process reduces the size of the problem to solve according to the collection priorities and makes the program more efficient to run.
 
 ### Business Model
 **Yearly Subscription:** We offer both on-premises and cloud deployment options for our model on a yearly subscription basis.
@@ -56,3 +60,5 @@ Our solution is scalable and can be used by several space companies or agencies 
 * https://www.cbsnews.com/news/space-junk-damage-international-space-station
 * https://www.reuters.com/lifestyle/science/international-space-station-swerves-dodge-space-junk-2021-12-03
 * https://en.wikipedia.org/wiki/Knapsack_problem
+* E. Farhi, J. Goldstone, and S. Gutmann, “A quantum approximate optimization algorithm.”, arXiv 1411.4028, 2014
+
