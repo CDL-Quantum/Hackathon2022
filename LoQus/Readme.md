@@ -34,7 +34,7 @@ The below figure shows how we envision our developed algorithm. In order to maxi
 
 To briefly introduce Filtering VQE: By designing a quantum hamiltonian according to the fitness function of the given problem, the optimal route can be encoded in the lowest energy state of a qubit system. F-VQE provides an acceleration on the relaxation process of the quantum system. 
 
-The basic idea is after applying a filtering operator F on state $\psi$, the probability of state $\psi$ will be modified by the prefactor $f^2/<F^2>$ (see equation below). Function f is chosen to be monotonically decreasing with energy Ex. So higher energy states will have smaller weight after this operation and lower energy states will increase the portion. This operation can speed up the relaxation process.
+The basic idea is after applying a filtering operator F on state $\psi$, the probability of state $\psi$ will be modified by the prefactor $f^2$/<$F^2$> (see equation below). Function f is chosen to be monotonically decreasing with energy Ex. So higher energy states will have smaller weight after this operation and lower energy states will increase the portion. This operation can speed up the relaxation process.
 
 ![alt text](https://github.com/walid-mk/Hackathon2022/blob/main/LoQus/probability.png)
 
