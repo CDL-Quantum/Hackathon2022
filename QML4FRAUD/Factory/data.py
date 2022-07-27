@@ -44,6 +44,8 @@ class PrepareData:
             if values_dont_change[0][i]:
                 index_to_drop = i
                 self.x_train = self.x_train.drop(self.x_train.columns[index_to_drop], axis = 1)
+                
+        self.x_test = self.x_test[self.x_train.columns]
         
     def view_info(self):
         print(self.x_train.info())
@@ -118,7 +120,7 @@ class PrepareData:
         LDA_transformations = []
         
         for i in range(n_dim):
-            lda = LDA(n_components= (n_dim - 1))
+            lda = LDA(n_components= 1)
             features_lda_train_new = lda.fit_transform(features_train[i], self.y_train)
             features_lda_train.append(pd.DataFrame(features_lda_train_new))
             LDA_transformations.append(lda)
