@@ -18,15 +18,15 @@ The quantum program employed here is fast (as compared to classical ones, e.g. q
 # Business risk model and analysis: 
 The impact of external adverse developments on future revenues in any business can be addressed within a risk model.
 A risk model estimates the overall likelihood of impacts that would threaten the business.
-Thus we are dealing with a probablity problem.
+Thus we are dealing with a probability problem.
 To define the problem, a threshold $A$ for a financial impact is defined.
 The probability $P(A)$ shows probability that the financial impact bigger than $A$, and $P_{max}$ is the maximal acceptable value of $P(A)$.
-In the business risk model, to avoide loss, an action needs to taken when $P(A)$ reaches it maximum value $P_{max}$.
+In the business risk model, to avoid loss, an action needs to be taken when $P(A)$ reaches it maximum value $P_{max}$.
 The estimated $P(A)$ is based on some estimated parameters (inputs) and we are interested in finding the parameter(s) that when changed
 slightly, influence the output of the model such that $P(A)>P_{max}$.
 
 The business risks is implemented as follows:
-An intrinsic probability $P_i$ is defined for each relevant event (risk item, e.g. a change in stock market). An item ($i$th) is also assigned a probability to trigger another item ($j$th) with with the transition probability $P_{ij}$.
+An intrinsic probability $P_i$ is defined for each relevant event (risk item, e.g. a change in stock market). An item ($i$th) is also assigned a probability to trigger another item ($j$th) with the transition probability $P_{ij}$.
 Each triggered risk item (e.g. by other items) generates a specific loss. 
 The sum of the losses of the triggered items gives the total loss for a specific scenario. 
 Finally, the model is evaluated by brute force (cf. ref [1] for the details).
