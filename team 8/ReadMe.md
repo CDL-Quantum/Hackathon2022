@@ -8,4 +8,4 @@ In this repository, you can find:
   * [QAOA with Pennylane](.\space_debris_collection_Pennylane.ipynb)
   * [QAOA with Qiskit](.\Debris_Removal_Model_Qiskit.ipynb)
   
- 
+ Here is a link to our presentation slides: https://docs.google.com/presentation/d/1zBIP7QOgtwzTeTv0sfvOP2ZzHSZc5o7bAlzJogANkA8/edit?usp=sharing
