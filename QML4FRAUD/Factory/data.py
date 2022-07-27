@@ -79,19 +79,22 @@ class PrepareData:
             features_test.append(new_set_test)
         
         # Run the LDA
-        lda = LDA(n_components= (n_dim - 1))
         features_lda_train = []
         features_lda_test = []
+        LDA_transformations = []
         
         for i in range(n_dim):
+            lda = LDA(n_components= (n_dim - 1))
             features_lda_train_new = lda.fit_transform(features_train[i], self.y_train)
             features_lda_train.append(pd.DataFrame(features_lda_train_new))
+            LDA_transformations.append(lda)
             
-            features_lda_test_new = lda.fit_transform(features_test[i], self.y_test)
+            features_lda_test_new = lda.transform(features_test[i])
             features_lda_test.append(pd.DataFrame(features_lda_test_new))
         
         x_train_data = features_lda_train[0]
         x_test_data = features_lda_test[0]
+        self.transformations = LDA_transformations
         
         # Join the results together
         for i in range(1, n_dim):
@@ -104,8 +107,7 @@ class PrepareData:
         std_scale_train = StandardScaler().fit(x_train_data)
         x_train_data = std_scale_train.transform(x_train_data)
         
-        std_scale_test = StandardScaler().fit(x_test_data)
-        x_test_data = std_scale_test.transform(x_test_data)
+        x_test_data = std_scale_train.transform(x_test_data)
             
         # shift label from {0, 1} to {-1, 1}
         self.train_X_preprocessed = np.array(x_train_data, requires_grad=False)
@@ -125,8 +127,8 @@ class PrepareData:
         pca = PCA(n_components=n_dim, svd_solver='full')
         pca.fit(self.x_train)
         x_train_pca = pca.transform(self.x_train)
-        pca.fit(self.x_test)
         x_test_pca = pca.transform(self.x_test)
+        self.transformations = pca
         
         train_X_preprocessed = normalize(x_train_pca)
         test_X_preprocessed = normalize(x_test_pca)
