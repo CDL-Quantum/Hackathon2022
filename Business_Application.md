@@ -12,7 +12,7 @@ They can be applied to various real-world problems such as cryptography, optimis
 Grover's algorithm (1996) is known for its ability to address unstructured search problems, which are basic problems in computer science.
 Here, we implement and analysis the risk modeling and its representation on quantum circuits using this algorithm and the Quantum Amplitude Estimation (QAE). 
 The fact that quantum algorithms are faster than a classical ones can be tested by the code execution runtime, measured by the number of elementary operations used by an algorithm, and can be done using the quantum circuit model. 
-The quantum program employed here is fast (as compared to classical ones, e.g. quasi-Monte Carlo methods), requires low number of qubits (~200), and has an interesting nested structure: Grover's algorithm\QAE\Quantum risk model (cf. ref [1] for the details).
+The quantum program employed here is fast (as compared to classical ones, e.g. quasi-Monte Carlo methods), requires low number of qubits (~200), and has an interesting nested structure: Grover's algorithm\QAE\Quantum risk model.
 
 
 # Business risk model and analysis: 
@@ -29,7 +29,7 @@ The business risks is implemented as follows:
 An intrinsic probability $P_i$ is defined for each relevant event (risk item, e.g. a change in stock market). An item ($i$th) is also assigned a probability to trigger another item ($j$th) with with the transition probability $P_{ij}$.
 Each triggered risk item (e.g. by other items) generates a specific loss. 
 The sum of the losses of the triggered items gives the total loss for a specific scenario. T
-Finally, the model is evaluated by brute force.
+Finally, the model is evaluated by brute force (cf. ref [1] for the details).
 
 
 - Compilation (Processor design / gate implementation):
