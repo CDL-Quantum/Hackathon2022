@@ -6,7 +6,7 @@ The debris includes rocket thrusters, abandoned satellites, and most importantly
 
 ![Space Debris](./images/space_debris.jpg)
 
-### Problems Created by Space Debris
+### Why Space Debris is a Problem?
 There were approximately 128 million pieces of debris under 1 cm (0.4 in), about 900,000 pieces between 1 and 10 cm, and approximately 34,000 pieces larger than 10 cm (3.9 in) in orbit around the Earth as of January 2019.
 
 Space debris orbits around the earth at tremendous speeds - about 15,700 miles per hour (25,265 kph) in low Earth orbit which is 10 times the speed of a bullet. So there is a possibility that active satellites and spacecraft could be damaged by space debris. Space travel is also at risk due to all this debris. 
@@ -44,9 +44,11 @@ We gather open source space debris data and encode it for quantum computers. Our
 As a pre-processing step, we also use AI to clean and rank debris according to size, collection cost, etc. 
 
 ### Business Model
-Yearly Subscription: Our solution is scalable and can be used by several space companies or agencies with no or minimal changes. Our model returns the optimal path for satellite vessels to collect as much debris as possible in one pass.
+**Yearly Subscription:** We offer both on-premises and cloud deployment options for our model on a yearly subscription basis.
 
-We offer both on-premises and cloud deployment options for our model on a yearly subscription basis.
+Our solution is scalable and can be used by several space companies or agencies with no or minimal changes. Our model returns the optimal path for satellite vessels to collect as much debris as possible in one pass.
+
+
 
 ### References:
 * https://en.wikipedia.org/wiki/Space_debris
