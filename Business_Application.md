@@ -50,12 +50,13 @@ For the first step, the structure of the model is translated into a quantum circ
 In the quantum formalism the risk items are represented by qubits.
 A risk item can be put into a superposition of being triggered with probability $P$ and not being triggered with probability $1-P$
 by appying a rotation operator
-$$U3(\theta,\phi,\lambda)=
+$$U3(\theta,\phi,\lambda)=$$
+
 \begin{pmatrix}
 1 & 2\\
 a & b
 \end{pmatrix}
-$$
+
 on a qubit.
 
 # Potential customers
