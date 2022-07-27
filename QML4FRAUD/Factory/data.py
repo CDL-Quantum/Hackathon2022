@@ -43,7 +43,7 @@ class PrepareData:
         for i in range(len(values_dont_change)):
             if values_dont_change[0][i]:
                 index_to_drop = i
-        self.x_train = self.x_train.drop(self.x_train.columns[index_to_drop], axis = 1)
+                self.x_train = self.x_train.drop(self.x_train.columns[index_to_drop], axis = 1)
         
     def view_info(self):
         print(self.x_train.info())
