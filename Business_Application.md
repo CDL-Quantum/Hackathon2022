@@ -69,7 +69,7 @@ Such analyses can be found in a wide range of applications such as ..
 
 [2] A. Montanaro, Quantum algorithms: an overview, npj Quantum Inf 2, 15023 (2016).
 
-[3] S. Woerner and D.J. Egger1, Quantum risk analysis, npj Quantum Inf 5, 15 (2019).
+[3] S. Woerner and D.J. Egger, Quantum risk analysis, npj Quantum Inf 5, 15 (2019).
 
 [4]
 
