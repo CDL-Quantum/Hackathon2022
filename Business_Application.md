@@ -35,10 +35,9 @@ we achieve a success probability of at least 81% (rather than nearly 100% in con
 
 
 # Quantum implementation
-The sensitivity analysis of the risk model is considered as a quantum program that analyzes the impact of varying each input parameter separately.
-The quantum algorithm consists of three steps:
-1. Implement the risk model as a quantum algorithm,
-2. Implement QAE on the outputs of the risk model,
+The sensitivity analysis of the risk model is considered as a quantum program that analyzes the impact of varying each input parameter in three steps:
+1. Implementing the risk model as a quantum algorithm,
+2. Implementing QAE on the outputs of the risk model,
 3. Search sensitive parameters with Grover's algorithm.
 
 
