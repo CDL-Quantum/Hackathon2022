@@ -51,7 +51,7 @@ With 2 qubits, and 5 entangling layers (same VQC structure as above), we achieve
 
 We can compare the results of the metrics in the graph below:
 
-![PCA LDA comparison](img/comparison_results.png)
+![PCA LDA comparison](img/pca_lda_comparison.JPG)
 
 With these results, we can see that using LDA for encoding surpasses PCA for VQC preprocessing encoding. Furthermore, we also looked at other classical ML approaches (not in this repo) like Linear Regression, SVM, and KNN, and the LDA encoding for VQC binary classification technique is better. It however does worse than techniques like Decision Tree and Random Forest, but the results are extremely encouraging considering that we have only used 2 qubits for 2 dimensions.
 
