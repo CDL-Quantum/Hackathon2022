@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import copy
 from pennylane import numpy as np
 from sklearn.preprocessing import normalize
 from sklearn.preprocessing import StandardScaler
@@ -36,8 +37,16 @@ class PrepareData:
         self.x_train = self.train_set.drop(target, axis=1)
         self.x_test = self.test_set.drop(target, axis=1)
         
+        self.x_train = self.x_train.loc[:, self.x_train.any()]
+        corr = self.x_train.corr()
+        values_dont_change = corr.isnull().values
+        for i in range(len(values_dont_change)):
+            if values_dont_change[0][i]:
+                index_to_drop = i
+        self.x_train = self.x_train.drop(self.x_train.columns[index_to_drop], axis = 1)
+        
     def view_info(self):
-        print(self.data_sample.info())
+        print(self.x_train.info())
         if self.preprocess_done == None:
             print("No preprocessing done yet.")
         else:
@@ -71,11 +80,36 @@ class PrepareData:
         features_test = []
         
         # Split Features (for Yaqi to change)
+        group_columns = []
+        df_clean_train_copy = copy.deepcopy(self.x_train)
+        group_size = int(len(df_clean_train_copy.columns) / n_dim)
+        
         for i in range(n_dim):
-            new_set_train = self.x_train.iloc[:,(i*split_feature):((i+1)*split_feature)]
+            corr_train = df_clean_train_copy.corr()
+
+            max_value = 0
+            for j in df_clean_train_copy.columns:
+                #print(corr_train[j].abs().sort_values(ascending=False))
+                if corr_train[j].abs().sort_values(ascending=False)[group_size - 1] >= max_value:
+                    saved = j
+                    max_value = corr_train[j].abs().sort_values(ascending=False)[group_size - 1]
+            
+            #print(saved)
+            #print(max_value)
+            #print(corr_train)
+            #print(df_clean_train_copy.columns)
+            #print(corr_train.columns)
+            indices = corr_train[saved].abs().sort_values(ascending=False).index
+            df_clean_train_copy = df_clean_train_copy[indices]
+            new_columns = df_clean_train_copy.columns[:group_size]
+            group_columns.append(new_columns)
+            df_clean_train_copy = df_clean_train_copy.iloc[:, (group_size):]
+
+        for i in range(n_dim):
+            new_set_train = self.x_train[group_columns[i]]
             features_train.append(new_set_train)
             
-            new_set_test = self.x_test.iloc[:,(i*split_feature):((i+1)*split_feature)]
+            new_set_test = self.x_test[group_columns[i]]
             features_test.append(new_set_test)
         
         # Run the LDA
