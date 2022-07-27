@@ -1,4 +1,4 @@
-#Hackathon 2022: QML4FRAUD
+# Hackathon 2022: QML4FRAUD
 
 This project is QML4FRAUD's submission for CDL Quantum Bootcamp Hackathon 2022, and will guide you through our implementation of using LDA to improve the encoding process of Variation Quantum Circuits in Quantum Machine Learning.
 
@@ -27,7 +27,7 @@ For the purposes of our experiments and proof-of-concepts (as well as time const
 - 4000 records
 - 97 features and a binary target variable.
 
-Note: To see how we perform the LDA and PCA, please look at [Solution via architecture.ipynb](./Solution via architecture.ipynb).
+Note: To see how we perform the LDA and PCA, please look at [Solution via architecture.ipynb](./Solution%20via%20architecture.ipynb).
 
 ### Performing the LDA
 
@@ -71,9 +71,30 @@ And we basically hope to experiment with every single part more.
 
 ## Business Application
 
+Machine learning is ubiquitous in many of the best solutions to industrial problems. Quantum computing is proposed to enhance machine learning. We have used the case of fraud detection as a demonstration to show that using LDA as a preprocessing method with a variational classifier could enhance the QML model's performance and allow it to process a lot more features. And we believe that this could be further improved in the future. 
+
+Since this is an improvement based on existing machine learning models, it has direct application in real cases. In principle, this could eventually be generalized for any multi-class classification problem. 
+
+We are seeing that the finance sector is always within the top 3 industries related to quantum computing use cases and benefits. Example problems that our approach could be applied to include: 
+
+- Credit scoring
+- Fraud detection
+- Default forecasting
+- Churn prediction
+- Loan approval
+
+and many more. 
+
+In other industries, improvement of classification also has many benefits. A quick but not complete list would include:
+
+- Energy: energy loss detection.
+- E-commerce: recommendation system.
+- Several industries: forecasting.
+- Healthcare: diagnosis.
+
 ## What is in this repository?
 
-- [Solution via architecture.ipynb](./Solution via architecture.ipynb): This notebook contains the proof-of-concept and experiment for the LDA vs PCA, and basically runs through how we run the code.
+- [Solution via architecture.ipynb](./Solution%20via%20architecture.ipynb): This notebook contains the proof-of-concept and experiment for the LDA vs PCA, and basically runs through how we run the code.
 
 - [Factory](./Factory): This folder contains two files: data.py and model.py. These two files are the basis for the unified architecture to prepare the data and run the VQC model for both LDA and PCA.
 - [data.py](Factory/data.py): This file contains the class for preparing the data for both LDA and PCA within the same class PrepareData.
