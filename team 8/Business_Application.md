@@ -13,13 +13,12 @@ Space debris orbits around the earth at tremendous speeds - about 15,700 miles p
 
 A large amount of space debris in orbit could hinder satellite activities for many generations to come.
 
-Kessler syndrome (also called Kessler effect) was proposed by NASA scientist Donald J. Kessler in 1978 as a scenario where collisions between objects in low Earth orbit (LEO) may result in a cascade creating space debris and increasing collision likelihood. According to Kessler, modeling results concluded in 2009 that the debris environment was already unstable, "such that attempts to eliminate past debris sources will likely fail since fragments from future collisions will be generated faster than atmospheric drag can remove them." 
+**Kessler syndrome** (also called Kessler effect) was proposed by NASA scientist Donald J. Kessler in 1978 as a scenario where collisions between objects in low Earth orbit (LEO) may result in a cascade creating space debris and increasing collision likelihood. According to Kessler, modeling results concluded in 2009 that the debris environment was already unstable, "such that attempts to eliminate past debris sources will likely fail since fragments from future collisions will be generated faster than atmospheric drag can remove them." 
 
 ### Recent Events
-* Space junk slams into International Space Station, leaving hole in robotic arm: Space junk hurtling towards the station smashed into one of its robotic arms, leaving a hole. 
+* **Space junk slams into International Space Station, leaving hole in robotic arm:** Space junk hurtling towards the station smashed into one of its robotic arms, leaving a hole. 
 NASA and the Canadian Space Agency first noticed the damage on Canadarm2 on May 12, according to a recent statement. The debris left a gaping hole in a section of the arm boom and thermal blanket. 
-* International Space Station swerves to dodge space junk: 
-The ISS had been forced to move due to space junk from a U.S. launch vehicle sent into orbit in 1994.
+* **International Space Station swerves to dodge space junk:** The ISS had been forced to move due to space junk from a U.S. launch vehicle sent into orbit in 1994.
  A close encounter was avoided by dropping by 310 metres (339 yards) as part of an unscheduled maneuver carried out by mission control.
 
 
@@ -33,19 +32,21 @@ A space debris removal optimization could also be described as combinatorial opt
 This can be also considered as a Knapsack problem where the goal is to determine the number of items each with a weight and value to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. According to its name, it refers to the problem of filling a fixed-size knapsack with valuable items when constrained by a fixed size. A similar problem occurs when decision-makers have to select from a set of non-divisible projects or tasks within a fixed budget or timeframe.
 
 ### Potential Customers
-* Space agencies such as NASA, ESA, etc.
-* Governments across the world.
-* Space companies such as SpaceX, OneWeb, etc.
-* Space debris removal startups such as CleanSpace, Astroscale, etc.
+* Space agencies, like NASA, ESA, etc, are potential customers because space debris can hinder their missions.
+* Governments around the world are also our potential customers since space debris can interfere with satellite operations as this is a matter of national security. In addition, it is related to the sustainability of space.
+* Space companies such as SpaceX and OneWeb, which plan to deploy 40,000+ satellites in the near future, will also be interested in our product since they wish to avoid collisions with space debris.
+* We believe that startups such as CleanSpace, Astroscale, and others who are interested in space debris removal will be interested in our product since they want to collect more space debris with less cost and mission time.
 
 ### Architecture
 
-We gather open source space debris data and encode it for Pennylane from Xanadu. As a pre-processing step, we also use AI to clean and rank debris according to size, collection cost, etc. 
+We gather open source space debris data and encode it for quantum computers. Our model is platform agnostic and can be run either on IBM hardware or Xanadu hardware. In the near future, it will be also possible to run our model on quantum annealers such as D-Wave hardware.
+
+As a pre-processing step, we also use AI to clean and rank debris according to size, collection cost, etc. 
 
 ### Business Model
 Yearly Subscription: Our solution is scalable and can be used by several space companies or agencies with no or minimal changes. Our model returns the optimal path for satellite vessels to collect as much debris as possible in one pass.
 
-We offer both on-premises and cloud deployment options for our model on yearly subscription basis.
+We offer both on-premises and cloud deployment options for our model on a yearly subscription basis.
 
 ### References:
 * https://en.wikipedia.org/wiki/Space_debris
