@@ -28,7 +28,7 @@ slightly, influence the output of the model such that $P(A)>P_{max}$.
 The business risks is implemented as follows:
 An intrinsic probability $P_i$ is defined for each relevant event (risk item, e.g. a change in stock market). An item ($i$th) is also assigned a probability to trigger another item ($j$th) with with the transition probability $P_{ij}$.
 Each triggered risk item (e.g. by other items) generates a specific loss. 
-The sum of the losses of the triggered items gives the total loss for a specific scenario. T
+The sum of the losses of the triggered items gives the total loss for a specific scenario. 
 Finally, the model is evaluated by brute force (cf. ref [1] for the details).
 
 
@@ -48,7 +48,8 @@ The sensitivity analysis of the risk model is considered as a quantum program th
 
 For the first step, the structure of the model is translated into a quantum circuit.
 In the quantum formalism the risk items are represented by qubits.
-
+A risk item can be put into a superposition of being triggered with probability $P$ and not being triggered with probability $1-P$
+by appying a rotation operator on a qubit.
 
 # Potential customers
 
