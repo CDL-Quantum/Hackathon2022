@@ -2,7 +2,7 @@
 
 This project is QML4FRAUD's submission for CDL Quantum Bootcamp Hackathon 2022, and will guide you through our implementation of using LDA to improve the encoding process of Variation Quantum Circuits in Quantum Machine Learning.
 
-Team Members: Yaqi Han, Jonas Tan, Mert Esencan, Javier Mancilla
+Team 9 Members: Yaqi Han, Jonas Tan, Mert Esencan, Javier Mancilla
 
 ## Our project: Novel approach about classical data preprocessing for classification problems using QML
 
