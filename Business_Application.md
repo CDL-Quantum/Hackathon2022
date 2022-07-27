@@ -26,7 +26,7 @@ The estimated $P(A)$ is based on some estimated parameters (inputs) and we are i
 slightly, influence the output of the model such that $P(A)>P_{max}$.
 
 The business risks is implemented as follows:
-An intrinsic probability $P_i$ is defined for each relevant event (risk item).
+An intrinsic probability $P_i$ is defined for each relevant event (risk item, e.g. a change in stock market).
 
 
 - Compilation (Processor design / gate implementation):
