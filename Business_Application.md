@@ -55,10 +55,8 @@ Such quantum implementation of the model turns out to be remarkably efficient as
 
 # Potential customers
 
-Potential customers for the Sensitivity Analysis of Business Risks includes banks, and any financial institute dealing with risk analysis
-and any company dealing with portfolio..
-
-Such analyses can be found in a wide range of applications such as ..
+Potential customers for the Sensitivity Analysis of Business Risks includes banks, trading companies, and any financial institute dealing with risk analysis
+and any company dealing with portfolio.
 
 
 # References
