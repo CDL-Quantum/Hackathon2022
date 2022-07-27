@@ -31,6 +31,8 @@ A space debris removal optimization could also be described as combinatorial opt
 
 This can be also considered as a Knapsack problem where the goal is to determine the number of items each with a weight and value to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. According to its name, it refers to the problem of filling a fixed-size knapsack with valuable items when constrained by a fixed size. A similar problem occurs when decision-makers have to select from a set of non-divisible projects or tasks within a fixed budget or timeframe. 
 
+![Space Debris](./images/TSP.jpeg)
+
 To optimize the path and take into account the resources required to travel, we add complexity to the problem. The new term is related to the Traveling Salesman Problem (TSP) whose goal is to optimize a path on a graph, such that all nodes are visited and each road is taken only once. In our case, we want to maximize the amount of nodes visited, representing the debris that are collected, while minimizing the length of the path, indicated by weights on the edges of the graph.
 
 The two problems that represent the situation of debris collection are known to be computationally hard to solve on classical computers: for large amounts of debris, it may take more that the age of the universe to solve.
