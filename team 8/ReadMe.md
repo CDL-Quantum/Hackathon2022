@@ -3,8 +3,8 @@
 Welcome to our repository! Here, we propose an efficient solution to optimize space expedition to collect space garbage.
 
 In this repository, you can find:
-* Our [business proposal](.\Business_Application.md)
-* A [technical explanation](.\Technical_Explanation.ipynb) of what algorithm does and how it works on this problem
+* Our [business proposal](.\Business_Application.md) : Business_Application.md
+* A [technical explanation](.\Technical_Explanation.ipynb) of what algorithm does and how it works on this problem : Technical_Explanation.ipynb
 * Our codes for:
   * [Quantum Annealing](.\space_debris_collection_QA_Dwave.ipynb) : space_debris_collection_QA_Dwave.ipynb
   * [QAOA with Pennylane](.\space_debris_collection_Pennylane.ipynb) : space_debris_collection_Pennylane.ipynb
