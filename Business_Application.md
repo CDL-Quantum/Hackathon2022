@@ -46,6 +46,7 @@ The sensitivity analysis of the risk model is considered as a quantum program th
 2. Implementing QAE on the outputs of the risk model,
 3. Search sensitive parameters with Grover's algorithm.
 
+For the first step, the structure of the model is translated into a quantum circuit.
 
 # Potential customers
 
