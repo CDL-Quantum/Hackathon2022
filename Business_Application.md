@@ -27,7 +27,7 @@ slightly, influence the output of the model such that $P(A)>P_{max}$.
 
 The business risks is implemented as follows:
 An intrinsic probability $P_i$ is defined for each relevant event (risk item, e.g. a change in stock market). 
-An item ($i$th)
+An item ($\italic{i}$th)
 is also assigned a probability to trigger another item ($j$th) with the transition probability $P_{ij}$.
 Each triggered risk item (e.g. by other items) generates a specific loss. 
 The sum of the losses of the triggered items gives the total loss for a specific scenario. 
