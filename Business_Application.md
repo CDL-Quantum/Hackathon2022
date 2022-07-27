@@ -51,7 +51,7 @@ In the quantum formalism the risk items are represented by qubits.
 A risk item can be put into a superposition of being triggered with probability $P$ and not being triggered with probability $1-P$
 by appying a rotation operator
 $U_3(\theta,\phi,\lambda)$
-on a qubit.
+on a qubit, with a $theta$ that fullfill the relation $\sin(\theta/2)=P$.
 
 # Potential customers
 
