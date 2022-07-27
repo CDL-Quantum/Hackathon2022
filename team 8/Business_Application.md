@@ -41,7 +41,8 @@ The two problems that represent the situation of debris collection are known to 
 * Space agencies, like NASA, ESA, etc, are potential customers because space debris can hinder their missions.
 * Governments around the world are also our potential customers since space debris can interfere with satellite operations as this is a matter of national security. In addition, it is related to the sustainability of space.
 * Space companies such as SpaceX and OneWeb, which plan to deploy 40,000+ satellites in the near future, will also be interested in our product since they wish to avoid collisions with space debris.
-* We believe that startups such as CleanSpace, Astroscale, and others who are interested in space debris removal will be interested in our product since they want to collect more space debris with less cost and mission time.
+* We believe that startups such as CleanSpace, Astroscale, and others who are interested in space debris removal will be interested in our product since they want to collect more space debris with less cost and mission time. <br />
+For e.g: Fujitsu worked with Glasgow University and Astroscale to demonstrate quantum advantage in space debris removal. The team designed an optimal mission in just 0.083 seconds using quantum inspired algorithms that reduced fuel costs by 25% and overall mission days by 23%. In addition, they were awarded £1 million in grants from the UK government.
 
 ### Architecture
 
