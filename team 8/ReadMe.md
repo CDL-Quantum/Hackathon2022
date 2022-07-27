@@ -1,5 +1,7 @@
 # Space debris collection
 
+We propose an efficient solution to optimize space expedition to collect space garbage.
+
 In this repository, you can find:
 * Our [business proposal](.\Business_Application.md)
 * A [technical explanation](.\Technical_Explanation.ipynb) of what algorithm does and how it works on this problem
