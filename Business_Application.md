@@ -1,7 +1,7 @@
 # Business Application of Quantum Algorithm for the Sensitivity Analysis of Business Risks
 
 
-# Quantum algorithm
+# Quantum algorithms
 
 - Problem definition: 
 Quantum algorithms are known for super-polynomial speedup over their classical counterparts.
@@ -22,9 +22,12 @@ Thus we are dealing with a probablity problem.
 To define the problem, a threshold $A$ for a financial impact is defined.
 The probability $P(A)$ shows probability that the financial impact bigger than $A$, and $P_{max}$ is the maximal acceptable value of $P(A)$.
 In the business risk model, to avoide loss, an action needs to taken when $P(A)$ reaches it maximum value $P_{max}$.
-
 The estimated $P(A)$ is based on some estimated parameters (inputs) and we are interested in finding the parameter(s) that when changed
 slightly, influence the output of the model such that $P(A)>P_{max}$.
+
+The business risks is implemented as follows:
+An intrinsic probability $P_i$ is defined for each relevant event (risk item).
+
 
 - Compilation (Processor design / gate implementation):
 The implementation of the quantum program and simulations are done using Qiskit.
