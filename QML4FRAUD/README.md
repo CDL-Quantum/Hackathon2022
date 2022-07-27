@@ -2,6 +2,8 @@
 
 This project is QML4FRAUD's submission for CDL Quantum Bootcamp Hackathon 2022, and will guide you through our implementation of using LDA to improve the encoding process of Variation Quantum Circuits in Quantum Machine Learning.
 
+Team Members: Yaqi Han, Jonas Tan, Mert Esencan, Javier Mancilla
+
 ## Our project: Novel approach about classical data preprocessing for classification problems using QML
 
 Quantum Machine Learning (QML) involves the integration of quantum algorithms into machine learning techniques, and has the potential to be one of the more versatile uses of quantum computing, simply because of how far-reaching machine learning is. Furthermore, many QML techniques are robust and are touted to be able to be used in the NISQ-era. However, one of the main problems of implementing quantum algorithms into machine learning is the problem of encoding, which is basically how to encode classical data for hybrid quantum algorithms (in our case VQC). There has been many studies done with interesting results, but those usually have a small number of data pooints, and more importantly, a small number of features. This is due to the fact that current (and for the foreseeable NISQ-era) quantum computers and simulators have a small number of qubits that we can work with, and so encoding a large number of features into a small number of qubits might cause us to lose important information from the features.
