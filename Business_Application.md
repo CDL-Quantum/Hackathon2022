@@ -52,7 +52,7 @@ A risk item can be put into a superposition of being triggered with probability 
 by appying a rotation operator
 $U_3(\theta,\phi,\lambda)$
 on a qubit, with a $\theta$ that fulfil the relation $\sin(\theta/2)=P$, and the phases $\phi$ and $\lambda$ can be set to zero.
-Such quantum implementation of the model seems remarkably efficient as compared to the implementation on a classical computer.
+Such quantum implementation of the model turns out to be remarkably efficient as compared to the implementation on a classical computer.
 
 
 # Potential customers
